@@ -21,7 +21,7 @@ googleAnalytics = ""
 
   # Background
   [params.background]
-    image = "assets/img/IMAG0782a.jpg"
+    image = "images/IMAG0782a.jpg"
 
     # Enable and set background fade speed
     [params.background.fade]
@@ -31,7 +31,7 @@ googleAnalytics = ""
   # Logo section
   [params.logo]
     enable = true
-    image = "assets/img/362portWhite.png"
+    image = "images/362portWhite.png"
     alt = "threesixtytwo.co"
     width = "100"
 
