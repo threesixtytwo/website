@@ -44,7 +44,7 @@ googleAnalytics = ""
   # Quote section
   [params.quote]
     enable = true
-    text = "For builders and doers. threesixtytwo is acapability builder that provides leadership and delivery focusing technology on your customer and unlike our competitors recruits, trains and supports teams to nurture your proposition."
+    text = "For builders and doers. threesixtytwo is a technology capability builder that provides leadership and delivery; focusing technology on your customers needs and unlike our competitors we help recruit, train and support teams to nurture your proposition."
 
   # Social icons section
   # Add a modifier class to increase size
