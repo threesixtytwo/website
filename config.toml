@@ -33,7 +33,7 @@ googleAnalytics = ""
     enable = true
     image = "images/362portWhite.png"
     alt = "threesixtytwo.co"
-    width = "100"
+    width = "200"
 
   # Header section
   [params.header]
