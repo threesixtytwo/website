@@ -1,5 +1,5 @@
 # Site settings
-baseurl = "https://threesixtytwo.co"
+baseurl = "https://threesixtytwo.co/"
 languageCode = "en-us"
 title = "three|sixtytwo"
 theme = "hugo-smpl-theme"
@@ -17,7 +17,7 @@ googleAnalytics = ""
   # To provide more meta data for search engines feel free to add a few information.
   # This lines will be inserted as meta tags.
   name = "threesixtytwo"
-  description = "Digital products done. "
+  description = "Digital products done."
 
   # Background
   [params.background]
