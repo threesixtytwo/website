@@ -18,6 +18,7 @@ googleAnalytics = ""
   # This lines will be inserted as meta tags.
   name = "threesixtytwo"
   description = "Digital products done."
+  custom_css = ["css/main.css"] #override css
 
   # Background
   [params.background]
@@ -42,8 +43,8 @@ googleAnalytics = ""
 
   # Quote section
   [params.quote]
-    enable = false
-    text = "Technology leadership, engineering capability, talent builders."
+    enable = true
+    text = "For builders and doers. threesixtytwo is acapability builder that provides leadership and delivery focusing technology on your customer and unlike our competitors recruits, trains and supports teams to nurture your proposition."
 
   # Social icons section
   # Add a modifier class to increase size
