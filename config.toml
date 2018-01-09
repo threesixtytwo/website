@@ -32,19 +32,19 @@ googleAnalytics = ""
   # Logo section
   [params.logo]
     enable = true
-    image = "images/362portWhite.png"
+    image = "images/362portblack.png"
     alt = "threesixtytwo.co"
     width = "200"
 
   # Header section
   [params.header]
-    enable = true
+    enable = false
     title = "Technology<br>tamed."
 
   # Quote section
   [params.quote]
-    enable = true
-    text = "For builders and doers. threesixtytwo is a technology capability builder that provides leadership, insight, and delivery. Focusing technology on your customers needs and unlike our competitors we help recruit, train and support teams to nurture your proposition."
+    enable = false
+    text = "For builders and doers. <br>threesixtytwo is a technology capability builder that provides leadership, insight, and delivery; focusing technology on your customers needs and unlike our competitors we help recruit, train and support teams to nurture your proposition."
 
   # Social icons section
   # Add a modifier class to increase size
