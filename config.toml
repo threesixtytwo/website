@@ -21,7 +21,7 @@ googleAnalytics = ""
 
   # Background
   [params.background]
-    image = "assets/img/IMAG0782.jpg"
+    image = "assets/img/IMAG0782a.jpg"
 
     # Enable and set background fade speed
     [params.background.fade]
