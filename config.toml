@@ -20,9 +20,9 @@ googleAnalytics = ""
   description = "Digital products done."
   custom_css = ["css/main.css"] #override css
 
-  # Background
+   #Background
   [params.background]
-    image = "images/IMAG0782a.jpg"
+    image = "images/IMAG0782b.jpg"
 
     # Enable and set background fade speed
     [params.background.fade]
@@ -44,7 +44,7 @@ googleAnalytics = ""
   # Quote section
   [params.quote]
     enable = false
-    text = "For builders and doers. <br>threesixtytwo is a technology capability builder that provides leadership, insight, and delivery; focusing technology on your customers needs and unlike our competitors we help recruit, train and support teams to nurture your proposition."
+    text = "For thinkers and do'ers. <br>threesixtytwo is a technology capability builder that provides leadership, strategy insight, and delivery experiance to your business; helping you focus technology on your customers needs. "
 
   # Social icons section
   # Add a modifier class to increase size
