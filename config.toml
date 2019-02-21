@@ -95,7 +95,7 @@ googleAnalytics = ""
   # Quote section
   [params.quote]
     enable = true
-    text = "For thinkers and do'ers, <br />tinkerers and tailors,<br />innovators and changemakers <br />For anyone that believes great products come from great teams.<br /><br />"
+    text = "For thinkers and do'ers, <br />tinkerers and tailors,<br />innovators and changemakers.<br />"
 
   # Social icons section
   # Add a modifier class to increase size
