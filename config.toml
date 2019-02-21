@@ -90,12 +90,12 @@ googleAnalytics = ""
   # Header section
   [params.header]
     enable = true
-    title = "Product | Engineering"
+    title = "Engineering | Product"
 
   # Quote section
   [params.quote]
     enable = true
-    text = "For thinkers and do'ers. <br>threesixtytwo is a technology capability builder that provides leadership, strategy insight, and delivery experiance to your business; helping you focus technology on your customers needs. "
+    text = "For thinkers and do'ers, <br />tinkerers and tailors,<br />innovators and changemakers <br />For anyone that believes great products come from great teams.<br /><br />"
 
   # Social icons section
   # Add a modifier class to increase size
