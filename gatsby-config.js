@@ -2,7 +2,7 @@ module.exports = {
   siteMetadata: {
     title: "Three Sixty Two",
     author: "Three sixty two ltd",
-    description: "A partner for your digital venture"
+    description: "A technology guide for your digital venture"
   },
   plugins: [
     {
@@ -24,7 +24,7 @@ module.exports = {
         background_color: '#663399',
         theme_color: '#663399',
         display: 'minimal-ui',
-        icon: 'src/images/362portwhite.png', // This path is relative to the root of the site.
+        icon: 'src/images/gatsby-icon.png', // This path is relative to the root of the site.
       },
     },
     'gatsby-plugin-sass',
