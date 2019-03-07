@@ -14,7 +14,7 @@ class Main extends React.Component {
           <h2 className="major">About</h2>
           <span className="image main"><img src={pic03} alt="" /></span>
           <p>At a point three hundred and sixty two metres above sea level, where a footpath crosses a long railway line is a gate. 
-            Behind the gate is a private track, the track runs for 9 miles along a lake before it curves 
+            Behind the gate is a private track, for 9 miles the track runs along a lake before it curves 
              and winds away from the water towards a range of remote mountains. In this wilderness, amoungst the swirling, unpredictable and changing, conditions,
             beyond lies the beginning of adventure. three hundred and sixty two is the start of venture everything beyond is our domain.</p>
             <p>At three sixty two we thrive on ventures, We combine technology 
