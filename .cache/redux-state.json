@@ -670,9 +670,9 @@
         "owner": "internal-data-bridge"
       }
     },
-    "b8117904-de6b-5d6f-8389-9cb0bf1dd39e": {
+    "31a20308-4162-56b8-9775-a41b40da71f8": {
       "resolve": "/Users/alex/projects/362/website/node_modules/gatsby-plugin-manifest",
-      "id": "b8117904-de6b-5d6f-8389-9cb0bf1dd39e",
+      "id": "31a20308-4162-56b8-9775-a41b40da71f8",
       "name": "gatsby-plugin-manifest",
       "version": "2.0.22",
       "pluginOptions": {
@@ -680,8 +680,8 @@
         "name": "gatsby-starter-default",
         "short_name": "starter",
         "start_url": "/",
-        "background_color": "#663399",
-        "theme_color": "#663399",
+        "background_color": "#616161",
+        "theme_color": "#616161",
         "display": "minimal-ui",
         "icon": "src/images/362portblack.png"
       },
@@ -756,7 +756,7 @@
       "parent": null,
       "children": [],
       "internal": {
-        "contentDigest": "f1c54039e6a29427e8024618e3af62bc",
+        "contentDigest": "b53ccd588f5f4c61c25d18de44880b4a",
         "type": "SitePlugin",
         "owner": "internal-data-bridge"
       }
@@ -941,7 +941,7 @@
       "resolve": "/Users/alex/projects/362/website",
       "id": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
       "name": "default-site-plugin",
-      "version": "4a8441be49e8d6838aebfa21214d9e36",
+      "version": "c93466680f9f2a9ac853337ac984d63f",
       "pluginOptions": {
         "plugins": []
       },
@@ -959,6 +959,14 @@
         "author": "Hunter Chang",
         "license": "MIT",
         "dependencies": [
+          {
+            "name": "cloudinary-core",
+            "version": "^2.6.2"
+          },
+          {
+            "name": "cloudinary-video-player",
+            "version": "^1.1.1"
+          },
           {
             "name": "gatsby",
             "version": "^2.0.76"
@@ -1025,7 +1033,7 @@
       "parent": null,
       "children": [],
       "internal": {
-        "contentDigest": "ae104ec0de514c6ade04a533002f6d82",
+        "contentDigest": "c3af77c2e3de1d9acbb70db5a33b2ee7",
         "type": "SitePlugin",
         "owner": "internal-data-bridge"
       }
@@ -1141,12 +1149,14 @@
       },
       "port": "8000",
       "host": "localhost",
-      "buildTime": "2019-03-09T11:24:32.594Z",
+      "pathPrefix": "",
+      "polyfill": true,
+      "buildTime": "2019-03-10T10:57:59.530Z",
       "id": "Site",
       "parent": null,
       "children": [],
       "internal": {
-        "contentDigest": "b7fc6e6ca8f60f37968ce8db7dd01b80",
+        "contentDigest": "9d79f980281aeab465525a246470ba47",
         "type": "Site",
         "owner": "internal-data-bridge"
       }
@@ -1156,7 +1166,7 @@
       "children": [],
       "parent": null,
       "internal": {
-        "contentDigest": "326044b283fadd1d367bca331d17c8ee",
+        "contentDigest": "1b8da0bd360d10033bb058dcdceb6764",
         "type": "Directory",
         "description": "Directory \"src/images\"",
         "owner": "gatsby-source-filesystem"
@@ -1167,9 +1177,9 @@
       "extension": "",
       "size": 448,
       "prettySize": "448 B",
-      "modifiedTime": "2019-03-09T11:23:52.076Z",
-      "accessTime": "2019-03-09T11:24:37.589Z",
-      "changeTime": "2019-03-09T11:23:52.076Z",
+      "modifiedTime": "2019-03-10T10:23:10.183Z",
+      "accessTime": "2019-03-10T10:58:03.692Z",
+      "changeTime": "2019-03-10T10:23:10.183Z",
       "birthTime": "2019-03-06T23:49:56.025Z",
       "root": "/",
       "dir": "/Users/alex/projects/362/website/src",
@@ -1186,61 +1196,14 @@
       "blksize": 4096,
       "ino": 4303386945,
       "blocks": 0,
-      "atimeMs": 1552130677589.2725,
-      "mtimeMs": 1552130632075.582,
-      "ctimeMs": 1552130632075.582,
+      "atimeMs": 1552215483691.5742,
+      "mtimeMs": 1552213390182.578,
+      "ctimeMs": 1552213390182.578,
       "birthtimeMs": 1551916196024.8132,
-      "atime": "2019-03-09T11:24:37.589Z",
-      "mtime": "2019-03-09T11:23:52.076Z",
-      "ctime": "2019-03-09T11:23:52.076Z",
+      "atime": "2019-03-10T10:58:03.692Z",
+      "mtime": "2019-03-10T10:23:10.183Z",
+      "ctime": "2019-03-10T10:23:10.183Z",
       "birthtime": "2019-03-06T23:49:56.025Z"
-    },
-    "52a46abb-7521-5a34-aa63-e5e583cc8369": {
-      "id": "52a46abb-7521-5a34-aa63-e5e583cc8369",
-      "children": [
-        "5d56b86b-26b3-534c-8a93-8b1797b70ed3"
-      ],
-      "parent": null,
-      "internal": {
-        "contentDigest": "1d603ff268edd28dc5a69044c8457e21",
-        "type": "File",
-        "mediaType": "image/png",
-        "description": "File \"src/images/362portWhite.png\"",
-        "owner": "gatsby-source-filesystem"
-      },
-      "sourceInstanceName": "images",
-      "absolutePath": "/Users/alex/projects/362/website/src/images/362portWhite.png",
-      "relativePath": "362portWhite.png",
-      "extension": "png",
-      "size": 31401,
-      "prettySize": "31.4 kB",
-      "modifiedTime": "2018-05-08T13:00:45.329Z",
-      "accessTime": "2019-03-09T10:20:18.105Z",
-      "changeTime": "2019-03-07T12:02:05.407Z",
-      "birthTime": "2018-05-08T13:00:45.328Z",
-      "root": "/",
-      "dir": "/Users/alex/projects/362/website/src/images",
-      "base": "362portWhite.png",
-      "ext": ".png",
-      "name": "362portWhite",
-      "relativeDirectory": "",
-      "dev": 16777220,
-      "mode": 33188,
-      "nlink": 1,
-      "uid": 501,
-      "gid": 20,
-      "rdev": 0,
-      "blksize": 4096,
-      "ino": 4303458120,
-      "blocks": 64,
-      "atimeMs": 1552126818105.2268,
-      "mtimeMs": 1525784445328.7095,
-      "ctimeMs": 1551960125407.458,
-      "birthtimeMs": 1525784445328.4722,
-      "atime": "2019-03-09T10:20:18.105Z",
-      "mtime": "2018-05-08T13:00:45.329Z",
-      "ctime": "2019-03-07T12:02:05.407Z",
-      "birthtime": "2018-05-08T13:00:45.328Z"
     },
     "e5928708-7110-5d62-9e0f-52b97cb9b99e": {
       "id": "e5928708-7110-5d62-9e0f-52b97cb9b99e",
@@ -1262,7 +1225,7 @@
       "size": 35736,
       "prettySize": "35.7 kB",
       "modifiedTime": "2018-05-08T13:00:45.329Z",
-      "accessTime": "2019-03-09T10:20:18.105Z",
+      "accessTime": "2019-03-09T11:24:44.407Z",
       "changeTime": "2019-03-07T12:02:05.407Z",
       "birthTime": "2018-05-08T13:00:45.329Z",
       "root": "/",
@@ -1280,24 +1243,61 @@
       "blksize": 4096,
       "ino": 4303458119,
       "blocks": 72,
-      "atimeMs": 1552126818105.233,
+      "atimeMs": 1552130684406.5703,
       "mtimeMs": 1525784445329.2222,
       "ctimeMs": 1551960125406.5664,
       "birthtimeMs": 1525784445328.8174,
-      "atime": "2019-03-09T10:20:18.105Z",
+      "atime": "2019-03-09T11:24:44.407Z",
       "mtime": "2018-05-08T13:00:45.329Z",
       "ctime": "2019-03-07T12:02:05.407Z",
       "birthtime": "2018-05-08T13:00:45.329Z"
     },
-    "5d56b86b-26b3-534c-8a93-8b1797b70ed3": {
-      "id": "5d56b86b-26b3-534c-8a93-8b1797b70ed3",
-      "children": [],
-      "parent": "52a46abb-7521-5a34-aa63-e5e583cc8369",
+    "52a46abb-7521-5a34-aa63-e5e583cc8369": {
+      "id": "52a46abb-7521-5a34-aa63-e5e583cc8369",
+      "children": [
+        "5d56b86b-26b3-534c-8a93-8b1797b70ed3"
+      ],
+      "parent": null,
       "internal": {
         "contentDigest": "1d603ff268edd28dc5a69044c8457e21",
-        "type": "ImageSharp",
-        "owner": "gatsby-transformer-sharp"
-      }
+        "type": "File",
+        "mediaType": "image/png",
+        "description": "File \"src/images/362portWhite.png\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "images",
+      "absolutePath": "/Users/alex/projects/362/website/src/images/362portWhite.png",
+      "relativePath": "362portWhite.png",
+      "extension": "png",
+      "size": 31401,
+      "prettySize": "31.4 kB",
+      "modifiedTime": "2018-05-08T13:00:45.329Z",
+      "accessTime": "2019-03-09T11:24:44.407Z",
+      "changeTime": "2019-03-07T12:02:05.407Z",
+      "birthTime": "2018-05-08T13:00:45.328Z",
+      "root": "/",
+      "dir": "/Users/alex/projects/362/website/src/images",
+      "base": "362portWhite.png",
+      "ext": ".png",
+      "name": "362portWhite",
+      "relativeDirectory": "",
+      "dev": 16777220,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 4303458120,
+      "blocks": 64,
+      "atimeMs": 1552130684406.5657,
+      "mtimeMs": 1525784445328.7095,
+      "ctimeMs": 1551960125407.458,
+      "birthtimeMs": 1525784445328.4722,
+      "atime": "2019-03-09T11:24:44.407Z",
+      "mtime": "2018-05-08T13:00:45.329Z",
+      "ctime": "2019-03-07T12:02:05.407Z",
+      "birthtime": "2018-05-08T13:00:45.328Z"
     },
     "0592a2b0-c1f9-5692-b5cd-54b0e6bd9e0e": {
       "id": "0592a2b0-c1f9-5692-b5cd-54b0e6bd9e0e",
@@ -1309,52 +1309,15 @@
         "owner": "gatsby-transformer-sharp"
       }
     },
-    "9665e385-0de7-5869-ba03-df93395dcc16": {
-      "id": "9665e385-0de7-5869-ba03-df93395dcc16",
-      "children": [
-        "f9d5e9cb-5148-56d8-9f71-559504dba3ca"
-      ],
-      "parent": null,
+    "5d56b86b-26b3-534c-8a93-8b1797b70ed3": {
+      "id": "5d56b86b-26b3-534c-8a93-8b1797b70ed3",
+      "children": [],
+      "parent": "52a46abb-7521-5a34-aa63-e5e583cc8369",
       "internal": {
-        "contentDigest": "c2d2f4d92c31072bb430e0ed0a609294",
-        "type": "File",
-        "mediaType": "image/png",
-        "description": "File \"src/images/overlay.png\"",
-        "owner": "gatsby-source-filesystem"
-      },
-      "sourceInstanceName": "images",
-      "absolutePath": "/Users/alex/projects/362/website/src/images/overlay.png",
-      "relativePath": "overlay.png",
-      "extension": "png",
-      "size": 4385,
-      "prettySize": "4.38 kB",
-      "modifiedTime": "2019-03-06T23:49:56.029Z",
-      "accessTime": "2019-03-09T10:20:18.105Z",
-      "changeTime": "2019-03-06T23:49:56.029Z",
-      "birthTime": "2019-03-06T23:49:56.029Z",
-      "root": "/",
-      "dir": "/Users/alex/projects/362/website/src/images",
-      "base": "overlay.png",
-      "ext": ".png",
-      "name": "overlay",
-      "relativeDirectory": "",
-      "dev": 16777220,
-      "mode": 33188,
-      "nlink": 1,
-      "uid": 501,
-      "gid": 20,
-      "rdev": 0,
-      "blksize": 4096,
-      "ino": 4303386948,
-      "blocks": 16,
-      "atimeMs": 1552126818105.2603,
-      "mtimeMs": 1551916196028.797,
-      "ctimeMs": 1551916196028.797,
-      "birthtimeMs": 1551916196028.6663,
-      "atime": "2019-03-09T10:20:18.105Z",
-      "mtime": "2019-03-06T23:49:56.029Z",
-      "ctime": "2019-03-06T23:49:56.029Z",
-      "birthtime": "2019-03-06T23:49:56.029Z"
+        "contentDigest": "1d603ff268edd28dc5a69044c8457e21",
+        "type": "ImageSharp",
+        "owner": "gatsby-transformer-sharp"
+      }
     },
     "2f521e14-f088-55a9-b6c9-392404fb3281": {
       "id": "2f521e14-f088-55a9-b6c9-392404fb3281",
@@ -1376,7 +1339,7 @@
       "size": 21212,
       "prettySize": "21.2 kB",
       "modifiedTime": "2019-03-06T23:49:56.028Z",
-      "accessTime": "2019-03-09T10:20:18.105Z",
+      "accessTime": "2019-03-09T11:24:38.237Z",
       "changeTime": "2019-03-06T23:49:56.028Z",
       "birthTime": "2019-03-06T23:49:56.028Z",
       "root": "/",
@@ -1394,63 +1357,43 @@
       "blksize": 4096,
       "ino": 4303386947,
       "blocks": 48,
-      "atimeMs": 1552126818105.2554,
+      "atimeMs": 1552130678236.892,
       "mtimeMs": 1551916196028.4941,
       "ctimeMs": 1551916196028.4941,
       "birthtimeMs": 1551916196028.2095,
-      "atime": "2019-03-09T10:20:18.105Z",
+      "atime": "2019-03-09T11:24:38.237Z",
       "mtime": "2019-03-06T23:49:56.028Z",
       "ctime": "2019-03-06T23:49:56.028Z",
       "birthtime": "2019-03-06T23:49:56.028Z"
     },
-    "f9d5e9cb-5148-56d8-9f71-559504dba3ca": {
-      "id": "f9d5e9cb-5148-56d8-9f71-559504dba3ca",
-      "children": [],
-      "parent": "9665e385-0de7-5869-ba03-df93395dcc16",
-      "internal": {
-        "contentDigest": "c2d2f4d92c31072bb430e0ed0a609294",
-        "type": "ImageSharp",
-        "owner": "gatsby-transformer-sharp"
-      }
-    },
-    "8c9d75db-fffc-5c41-9756-61c923b7d434": {
-      "id": "8c9d75db-fffc-5c41-9756-61c923b7d434",
-      "children": [],
-      "parent": "2f521e14-f088-55a9-b6c9-392404fb3281",
-      "internal": {
-        "contentDigest": "4a9773549091c227cd2eb82ccd9c5e3a",
-        "type": "ImageSharp",
-        "owner": "gatsby-transformer-sharp"
-      }
-    },
-    "f89b78c1-59f7-510d-a77f-cf81e079c217": {
-      "id": "f89b78c1-59f7-510d-a77f-cf81e079c217",
+    "9665e385-0de7-5869-ba03-df93395dcc16": {
+      "id": "9665e385-0de7-5869-ba03-df93395dcc16",
       "children": [
-        "e0b50765-c44e-5c45-81e0-557b58b70857"
+        "f9d5e9cb-5148-56d8-9f71-559504dba3ca"
       ],
       "parent": null,
       "internal": {
-        "contentDigest": "4528ad9f4ac47247d0e81d536ab02791",
+        "contentDigest": "c2d2f4d92c31072bb430e0ed0a609294",
         "type": "File",
-        "mediaType": "image/jpeg",
-        "description": "File \"src/images/pic02.jpg\"",
+        "mediaType": "image/png",
+        "description": "File \"src/images/overlay.png\"",
         "owner": "gatsby-source-filesystem"
       },
       "sourceInstanceName": "images",
-      "absolutePath": "/Users/alex/projects/362/website/src/images/pic02.jpg",
-      "relativePath": "pic02.jpg",
-      "extension": "jpg",
-      "size": 8904,
-      "prettySize": "8.9 kB",
+      "absolutePath": "/Users/alex/projects/362/website/src/images/overlay.png",
+      "relativePath": "overlay.png",
+      "extension": "png",
+      "size": 4385,
+      "prettySize": "4.38 kB",
       "modifiedTime": "2019-03-06T23:49:56.029Z",
-      "accessTime": "2019-03-09T10:20:18.105Z",
+      "accessTime": "2019-03-09T11:24:46.269Z",
       "changeTime": "2019-03-06T23:49:56.029Z",
       "birthTime": "2019-03-06T23:49:56.029Z",
       "root": "/",
       "dir": "/Users/alex/projects/362/website/src/images",
-      "base": "pic02.jpg",
-      "ext": ".jpg",
-      "name": "pic02",
+      "base": "overlay.png",
+      "ext": ".png",
+      "name": "overlay",
       "relativeDirectory": "",
       "dev": 16777220,
       "mode": 33188,
@@ -1459,13 +1402,13 @@
       "gid": 20,
       "rdev": 0,
       "blksize": 4096,
-      "ino": 4303386950,
-      "blocks": 24,
-      "atimeMs": 1552126818105.271,
-      "mtimeMs": 1551916196029.3062,
-      "ctimeMs": 1551916196029.3062,
-      "birthtimeMs": 1551916196029.1672,
-      "atime": "2019-03-09T10:20:18.105Z",
+      "ino": 4303386948,
+      "blocks": 16,
+      "atimeMs": 1552130686269.1973,
+      "mtimeMs": 1551916196028.797,
+      "ctimeMs": 1551916196028.797,
+      "birthtimeMs": 1551916196028.6663,
+      "atime": "2019-03-09T11:24:46.269Z",
       "mtime": "2019-03-06T23:49:56.029Z",
       "ctime": "2019-03-06T23:49:56.029Z",
       "birthtime": "2019-03-06T23:49:56.029Z"
@@ -1490,7 +1433,7 @@
       "size": 10064,
       "prettySize": "10.1 kB",
       "modifiedTime": "2019-03-06T23:49:56.029Z",
-      "accessTime": "2019-03-09T10:20:18.105Z",
+      "accessTime": "2019-03-09T11:24:38.237Z",
       "changeTime": "2019-03-06T23:49:56.029Z",
       "birthTime": "2019-03-06T23:49:56.029Z",
       "root": "/",
@@ -1508,11 +1451,58 @@
       "blksize": 4096,
       "ino": 4303386949,
       "blocks": 24,
-      "atimeMs": 1552126818105.2664,
+      "atimeMs": 1552130678236.9026,
       "mtimeMs": 1551916196029.0747,
       "ctimeMs": 1551916196029.0747,
       "birthtimeMs": 1551916196028.958,
-      "atime": "2019-03-09T10:20:18.105Z",
+      "atime": "2019-03-09T11:24:38.237Z",
+      "mtime": "2019-03-06T23:49:56.029Z",
+      "ctime": "2019-03-06T23:49:56.029Z",
+      "birthtime": "2019-03-06T23:49:56.029Z"
+    },
+    "f89b78c1-59f7-510d-a77f-cf81e079c217": {
+      "id": "f89b78c1-59f7-510d-a77f-cf81e079c217",
+      "children": [
+        "e0b50765-c44e-5c45-81e0-557b58b70857"
+      ],
+      "parent": null,
+      "internal": {
+        "contentDigest": "4528ad9f4ac47247d0e81d536ab02791",
+        "type": "File",
+        "mediaType": "image/jpeg",
+        "description": "File \"src/images/pic02.jpg\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "images",
+      "absolutePath": "/Users/alex/projects/362/website/src/images/pic02.jpg",
+      "relativePath": "pic02.jpg",
+      "extension": "jpg",
+      "size": 8904,
+      "prettySize": "8.9 kB",
+      "modifiedTime": "2019-03-06T23:49:56.029Z",
+      "accessTime": "2019-03-09T11:24:38.237Z",
+      "changeTime": "2019-03-06T23:49:56.029Z",
+      "birthTime": "2019-03-06T23:49:56.029Z",
+      "root": "/",
+      "dir": "/Users/alex/projects/362/website/src/images",
+      "base": "pic02.jpg",
+      "ext": ".jpg",
+      "name": "pic02",
+      "relativeDirectory": "",
+      "dev": 16777220,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 4303386950,
+      "blocks": 24,
+      "atimeMs": 1552130678236.9082,
+      "mtimeMs": 1551916196029.3062,
+      "ctimeMs": 1551916196029.3062,
+      "birthtimeMs": 1551916196029.1672,
+      "atime": "2019-03-09T11:24:38.237Z",
       "mtime": "2019-03-06T23:49:56.029Z",
       "ctime": "2019-03-06T23:49:56.029Z",
       "birthtime": "2019-03-06T23:49:56.029Z"
@@ -1537,7 +1527,7 @@
       "size": 9697,
       "prettySize": "9.7 kB",
       "modifiedTime": "2019-03-06T23:49:56.030Z",
-      "accessTime": "2019-03-09T10:20:18.105Z",
+      "accessTime": "2019-03-09T11:24:44.407Z",
       "changeTime": "2019-03-06T23:49:56.030Z",
       "birthTime": "2019-03-06T23:49:56.029Z",
       "root": "/",
@@ -1555,21 +1545,31 @@
       "blksize": 4096,
       "ino": 4303386951,
       "blocks": 24,
-      "atimeMs": 1552126818105.276,
+      "atimeMs": 1552130684406.612,
       "mtimeMs": 1551916196029.5764,
       "ctimeMs": 1551916196029.5764,
       "birthtimeMs": 1551916196029.4197,
-      "atime": "2019-03-09T10:20:18.105Z",
+      "atime": "2019-03-09T11:24:44.407Z",
       "mtime": "2019-03-06T23:49:56.030Z",
       "ctime": "2019-03-06T23:49:56.030Z",
       "birthtime": "2019-03-06T23:49:56.029Z"
     },
-    "e0b50765-c44e-5c45-81e0-557b58b70857": {
-      "id": "e0b50765-c44e-5c45-81e0-557b58b70857",
+    "8c9d75db-fffc-5c41-9756-61c923b7d434": {
+      "id": "8c9d75db-fffc-5c41-9756-61c923b7d434",
       "children": [],
-      "parent": "f89b78c1-59f7-510d-a77f-cf81e079c217",
+      "parent": "2f521e14-f088-55a9-b6c9-392404fb3281",
       "internal": {
-        "contentDigest": "4528ad9f4ac47247d0e81d536ab02791",
+        "contentDigest": "4a9773549091c227cd2eb82ccd9c5e3a",
+        "type": "ImageSharp",
+        "owner": "gatsby-transformer-sharp"
+      }
+    },
+    "f9d5e9cb-5148-56d8-9f71-559504dba3ca": {
+      "id": "f9d5e9cb-5148-56d8-9f71-559504dba3ca",
+      "children": [],
+      "parent": "9665e385-0de7-5869-ba03-df93395dcc16",
+      "internal": {
+        "contentDigest": "c2d2f4d92c31072bb430e0ed0a609294",
         "type": "ImageSharp",
         "owner": "gatsby-transformer-sharp"
       }
@@ -1580,6 +1580,16 @@
       "parent": "0fca52c0-1776-518d-8b3e-a142f9b1a299",
       "internal": {
         "contentDigest": "55e1797fd15a7113b2be5a8fc1363d93",
+        "type": "ImageSharp",
+        "owner": "gatsby-transformer-sharp"
+      }
+    },
+    "e0b50765-c44e-5c45-81e0-557b58b70857": {
+      "id": "e0b50765-c44e-5c45-81e0-557b58b70857",
+      "children": [],
+      "parent": "f89b78c1-59f7-510d-a77f-cf81e079c217",
+      "internal": {
+        "contentDigest": "4528ad9f4ac47247d0e81d536ab02791",
         "type": "ImageSharp",
         "owner": "gatsby-transformer-sharp"
       }
@@ -1614,7 +1624,7 @@
       "size": 692828,
       "prettySize": "693 kB",
       "modifiedTime": "2019-03-06T23:49:56.028Z",
-      "accessTime": "2019-03-09T10:20:18.105Z",
+      "accessTime": "2019-03-09T11:24:38.237Z",
       "changeTime": "2019-03-07T22:30:36.928Z",
       "birthTime": "2019-03-06T23:49:56.025Z",
       "root": "/",
@@ -1632,11 +1642,11 @@
       "blksize": 4096,
       "ino": 4303386946,
       "blocks": 1360,
-      "atimeMs": 1552126818105.2449,
+      "atimeMs": 1552130678236.8813,
       "mtimeMs": 1551916196027.8018,
       "ctimeMs": 1551997836927.8938,
       "birthtimeMs": 1551916196024.8647,
-      "atime": "2019-03-09T10:20:18.105Z",
+      "atime": "2019-03-09T11:24:38.237Z",
       "mtime": "2019-03-06T23:49:56.028Z",
       "ctime": "2019-03-07T22:30:36.928Z",
       "birthtime": "2019-03-06T23:49:56.025Z"
@@ -1671,7 +1681,7 @@
       "size": 977076,
       "prettySize": "977 kB",
       "modifiedTime": "2018-05-08T13:00:45.336Z",
-      "accessTime": "2019-03-09T10:20:18.105Z",
+      "accessTime": "2019-03-09T11:24:38.237Z",
       "changeTime": "2019-03-07T12:02:05.408Z",
       "birthTime": "2018-05-08T13:00:45.329Z",
       "root": "/",
@@ -1689,11 +1699,11 @@
       "blksize": 4096,
       "ino": 4303458121,
       "blocks": 1912,
-      "atimeMs": 1552126818105.2383,
+      "atimeMs": 1552130678236.8765,
       "mtimeMs": 1525784445336.24,
       "ctimeMs": 1551960125408.3262,
       "birthtimeMs": 1525784445329.3438,
-      "atime": "2019-03-09T10:20:18.105Z",
+      "atime": "2019-03-09T11:24:38.237Z",
       "mtime": "2018-05-08T13:00:45.336Z",
       "ctime": "2019-03-07T12:02:05.408Z",
       "birthtime": "2018-05-08T13:00:45.329Z"
@@ -1728,7 +1738,7 @@
       "size": 1747761,
       "prettySize": "1.75 MB",
       "modifiedTime": "2018-05-08T20:52:14.249Z",
-      "accessTime": "2019-03-09T10:20:18.105Z",
+      "accessTime": "2019-03-09T11:24:46.269Z",
       "changeTime": "2019-03-07T22:30:42.409Z",
       "birthTime": "2018-05-08T20:52:10.697Z",
       "root": "/",
@@ -1746,11 +1756,11 @@
       "blksize": 4096,
       "ino": 4303458118,
       "blocks": 4224,
-      "atimeMs": 1552126818105.2493,
+      "atimeMs": 1552130686269.1406,
       "mtimeMs": 1525812734249.4155,
       "ctimeMs": 1551997842409.2598,
       "birthtimeMs": 1525812730697.249,
-      "atime": "2019-03-09T10:20:18.105Z",
+      "atime": "2019-03-09T11:24:46.269Z",
       "mtime": "2018-05-08T20:52:14.249Z",
       "ctime": "2019-03-07T22:30:42.409Z",
       "birthtime": "2018-05-08T20:52:10.697Z"
@@ -1764,6 +1774,51 @@
         "type": "ImageSharp",
         "owner": "gatsby-transformer-sharp"
       }
+    },
+    "ffcb5b8f-0e60-5af5-b7a0-4e621970b137": {
+      "id": "ffcb5b8f-0e60-5af5-b7a0-4e621970b137",
+      "children": [],
+      "parent": null,
+      "internal": {
+        "contentDigest": "ea6eda5504ab7a275fc16d877eb9b6d7",
+        "type": "File",
+        "mediaType": "image/gif",
+        "description": "File \"src/images/ani.gif\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "images",
+      "absolutePath": "/Users/alex/projects/362/website/src/images/ani.gif",
+      "relativePath": "ani.gif",
+      "extension": "gif",
+      "size": 12507928,
+      "prettySize": "12.5 MB",
+      "modifiedTime": "2019-03-10T10:23:10.183Z",
+      "accessTime": "2019-03-10T10:29:05.240Z",
+      "changeTime": "2019-03-10T10:23:10.184Z",
+      "birthTime": "2019-03-09T11:23:02.454Z",
+      "root": "/",
+      "dir": "/Users/alex/projects/362/website/src/images",
+      "base": "ani.gif",
+      "ext": ".gif",
+      "name": "ani",
+      "relativeDirectory": "",
+      "dev": 16777220,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 4303625517,
+      "blocks": 24488,
+      "atimeMs": 1552213745240.319,
+      "mtimeMs": 1552213390183,
+      "ctimeMs": 1552213390183.9026,
+      "birthtimeMs": 1552130582453.6265,
+      "atime": "2019-03-10T10:29:05.240Z",
+      "mtime": "2019-03-10T10:23:10.183Z",
+      "ctime": "2019-03-10T10:23:10.184Z",
+      "birthtime": "2019-03-09T11:23:02.454Z"
     },
     "SitePage /404/": {
       "jsonName": "404-22d",
@@ -1844,56 +1899,11 @@
         "description": "f795702c-a3b8-5a88-88ee-5d06019d44fa",
         "owner": "internal-data-bridge"
       }
-    },
-    "ffcb5b8f-0e60-5af5-b7a0-4e621970b137": {
-      "id": "ffcb5b8f-0e60-5af5-b7a0-4e621970b137",
-      "children": [],
-      "parent": null,
-      "internal": {
-        "contentDigest": "ea6eda5504ab7a275fc16d877eb9b6d7",
-        "type": "File",
-        "mediaType": "image/gif",
-        "description": "File \"src/images/ani.gif\"",
-        "owner": "gatsby-source-filesystem"
-      },
-      "sourceInstanceName": "images",
-      "absolutePath": "/Users/alex/projects/362/website/src/images/ani.gif",
-      "relativePath": "ani.gif",
-      "extension": "gif",
-      "size": 12507928,
-      "prettySize": "12.5 MB",
-      "modifiedTime": "2019-03-10T10:23:10.183Z",
-      "accessTime": "2019-03-10T10:23:10.218Z",
-      "changeTime": "2019-03-10T10:23:10.184Z",
-      "birthTime": "2019-03-09T11:23:02.454Z",
-      "root": "/",
-      "dir": "/Users/alex/projects/362/website/src/images",
-      "base": "ani.gif",
-      "ext": ".gif",
-      "name": "ani",
-      "relativeDirectory": "",
-      "dev": 16777220,
-      "mode": 33188,
-      "nlink": 1,
-      "uid": 501,
-      "gid": 20,
-      "rdev": 0,
-      "blksize": 4096,
-      "ino": 4303625517,
-      "blocks": 24488,
-      "atimeMs": 1552213390217.5715,
-      "mtimeMs": 1552213390183,
-      "ctimeMs": 1552213390183.9026,
-      "birthtimeMs": 1552130582453.6265,
-      "atime": "2019-03-10T10:23:10.218Z",
-      "mtime": "2019-03-10T10:23:10.183Z",
-      "ctime": "2019-03-10T10:23:10.184Z",
-      "birthtime": "2019-03-09T11:23:02.454Z"
     }
   },
   "status": {
     "plugins": {},
-    "PLUGINS_HASH": "8f65188884d42e3962c0d303a10b8ae6"
+    "PLUGINS_HASH": "d70eb4a7409a67bd1bc8c551456593ee"
   },
   "componentDataDependencies": {
     "nodes": {
