@@ -18,7 +18,7 @@ class Main extends React.Component {
             Behind the gate is a private track, for 9 miles the track runs along a lake before it curves 
              and winds away from the water towards a range of remote mountains. In this wilderness, amoungst the swirling, unpredictable, conditions
              lies the beginning of our adventure.</p>
-            <p>At three sixty two we thrive on finding cusomer pain and connecting simple product engineering. </p><p>Aruthur C Clarke's third law reads <quote>"Any sufficiently advanced technology is indistinguishable from magic."</quote> our goal is to take the magic out of technology and put it into your business.</p>
+            <p>At three sixty two we thrive on finding customer pain and connecting simple engineering. </p><p>Aruthur C Clarke's third law reads <quote>"Any sufficiently advanced technology is indistinguishable from magic."</quote> our goal is to take the magic out of technology and put it into your business.</p>
             <p>We combine technology expertise with years of creating digital products, propositions that delight millions of
               customers every single day, products that we are proud of. In an evolving landscape subject to unpredictable change, 
               we've learnt adaptability, mindset and continual learning are keys to success and that the right people, 
