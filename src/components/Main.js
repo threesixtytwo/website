@@ -13,14 +13,12 @@ class Main extends React.Component {
       <div ref={this.props.setWrapperRef} id="main" style={this.props.timeout ? {display: 'flex'} : {display: 'none'}}>
         <article id="about" className={`${this.props.article === 'about' ? 'active' : ''} ${this.props.articleTimeout ? 'timeout' : ''}`} style={{display:'none'}}>
           <h2 className="major">About</h2>
-          <span className="image main"><Video publicId="IMG_0004" >
-
-</Video></span>
+          <span className="image main"></span>
           <p>At a point three hundred and sixty two metres above sea level, where a footpath crosses a long railway line is a gate. 
             Behind the gate is a private track, for 9 miles the track runs along a lake before it curves 
-             and winds away from the water towards a range of remote mountains. In this wilderness, amoungst the swirling, unpredictable, changing, conditions,
-             lies the beginning of adventure. three hundred and sixty two is the start of venture everything beyond is our domain.</p>
-            <p>At three sixty two we thrive on, finding cusomer pain and connecting simple product engineering. </p><p>Aruthur C Clarke's third law reads <quote>"Any sufficiently advanced technology is indistinguishable from magic."</quote> our goal is to take the magic out of technology and put it into your business.</p>
+             and winds away from the water towards a range of remote mountains. In this wilderness, amoungst the swirling, unpredictable, conditions
+             lies the beginning of our adventure.</p>
+            <p>At three sixty two we thrive on finding cusomer pain and connecting simple product engineering. </p><p>Aruthur C Clarke's third law reads <quote>"Any sufficiently advanced technology is indistinguishable from magic."</quote> our goal is to take the magic out of technology and put it into your business.</p>
             <p>We combine technology expertise with years of creating digital products, propositions that delight millions of
               customers every single day, products that we are proud of. In an evolving landscape subject to unpredictable change, 
               we've learnt adaptability, mindset and continual learning are keys to success and that the right people, 
@@ -28,7 +26,7 @@ class Main extends React.Component {
             we compliment technology and we evolve our goals to suit conditions. We've gotten pretty good at creating a culture that succeeds.</p>
               <p>When facing your venture in an evolving digital landscape, anyone can succeed but it really helps to have a guide.</p>
         
-
+</article>
         <article id="contact" className={`${this.props.article === 'contact' ? 'active' : ''} ${this.props.articleTimeout ? 'timeout' : ''}`} style={{display:'none'}}>
           <h2 className="major">Contact</h2>
           <form method="post" action="#">
