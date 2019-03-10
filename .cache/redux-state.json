@@ -1,13 +1,22 @@
 {
   "nodes": {
     "SitePage /dev-404-page/": {
+      "jsonName": "dev-404-page-5f9",
+      "internalComponentName": "ComponentDev404Page",
       "path": "/dev-404-page/",
+      "component": "/Users/alex/projects/362/website/.cache/dev-404-page.js",
+      "componentChunkName": "component---cache-dev-404-page-js",
+      "context": {},
+      "pluginCreator___NODE": "d48d1c52-fe48-53cb-8f08-aa4b47dde5a5",
+      "pluginCreatorId": "d48d1c52-fe48-53cb-8f08-aa4b47dde5a5",
+      "componentPath": "/Users/alex/projects/362/website/.cache/dev-404-page.js",
       "id": "SitePage /dev-404-page/",
       "parent": null,
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "f91d29e10ba680b413138cf9ed86e655",
+        "contentDigest": "c13d2cfeaf54b671d8c58666fc156f44",
+        "description": "d48d1c52-fe48-53cb-8f08-aa4b47dde5a5",
         "owner": "internal-data-bridge"
       }
     },
@@ -661,9 +670,9 @@
         "owner": "internal-data-bridge"
       }
     },
-    "d6d58623-1d01-596f-b399-77a49b712062": {
+    "b8117904-de6b-5d6f-8389-9cb0bf1dd39e": {
       "resolve": "/Users/alex/projects/362/website/node_modules/gatsby-plugin-manifest",
-      "id": "d6d58623-1d01-596f-b399-77a49b712062",
+      "id": "b8117904-de6b-5d6f-8389-9cb0bf1dd39e",
       "name": "gatsby-plugin-manifest",
       "version": "2.0.22",
       "pluginOptions": {
@@ -674,7 +683,7 @@
         "background_color": "#663399",
         "theme_color": "#663399",
         "display": "minimal-ui",
-        "icon": "src/images/362portwhite.png"
+        "icon": "src/images/362portblack.png"
       },
       "nodeAPIs": [
         "onPostBootstrap"
@@ -747,7 +756,7 @@
       "parent": null,
       "children": [],
       "internal": {
-        "contentDigest": "b46f3c7e4129160f73b9ff1cc1b510c4",
+        "contentDigest": "f1c54039e6a29427e8024618e3af62bc",
         "type": "SitePlugin",
         "owner": "internal-data-bridge"
       }
@@ -932,7 +941,7 @@
       "resolve": "/Users/alex/projects/362/website",
       "id": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
       "name": "default-site-plugin",
-      "version": "425438b9d516a5d48729877bc335b6ff",
+      "version": "4a8441be49e8d6838aebfa21214d9e36",
       "pluginOptions": {
         "plugins": []
       },
@@ -1016,7 +1025,7 @@
       "parent": null,
       "children": [],
       "internal": {
-        "contentDigest": "1af848e5597943226c7843cb66dfca58",
+        "contentDigest": "ae104ec0de514c6ade04a533002f6d82",
         "type": "SitePlugin",
         "owner": "internal-data-bridge"
       }
@@ -1128,16 +1137,18 @@
       "siteMetadata": {
         "title": "Three Sixty Two",
         "author": "Three sixty two ltd",
-        "description": "A partner for your digital venture"
+        "description": "A technology guide for your digital venture"
       },
+      "port": "8000",
+      "host": "localhost",
       "pathPrefix": "",
       "polyfill": true,
-      "buildTime": "2019-03-07T22:57:11.103Z",
+      "buildTime": "2019-03-09T11:24:32.594Z",
       "id": "Site",
       "parent": null,
       "children": [],
       "internal": {
-        "contentDigest": "afb4f428d084f30e11d14abf590d0bae",
+        "contentDigest": "7b14ab7bfe45489271d5a9f4c61f4d36",
         "type": "Site",
         "owner": "internal-data-bridge"
       }
@@ -1147,7 +1158,7 @@
       "children": [],
       "parent": null,
       "internal": {
-        "contentDigest": "6750d9813ef16905e2ad26449e5b619d",
+        "contentDigest": "326044b283fadd1d367bca331d17c8ee",
         "type": "Directory",
         "description": "Directory \"src/images\"",
         "owner": "gatsby-source-filesystem"
@@ -1156,11 +1167,11 @@
       "absolutePath": "/Users/alex/projects/362/website/src/images",
       "relativePath": "",
       "extension": "",
-      "size": 384,
-      "prettySize": "384 B",
-      "modifiedTime": "2019-03-07T22:30:42.409Z",
-      "accessTime": "2019-03-07T22:57:15.234Z",
-      "changeTime": "2019-03-07T22:30:42.409Z",
+      "size": 448,
+      "prettySize": "448 B",
+      "modifiedTime": "2019-03-09T11:23:52.076Z",
+      "accessTime": "2019-03-09T11:24:37.589Z",
+      "changeTime": "2019-03-09T11:23:52.076Z",
       "birthTime": "2019-03-06T23:49:56.025Z",
       "root": "/",
       "dir": "/Users/alex/projects/362/website/src",
@@ -1170,20 +1181,20 @@
       "relativeDirectory": "..",
       "dev": 16777220,
       "mode": 16877,
-      "nlink": 12,
+      "nlink": 14,
       "uid": 501,
       "gid": 20,
       "rdev": 0,
       "blksize": 4096,
       "ino": 4303386945,
       "blocks": 0,
-      "atimeMs": 1551999435234.4045,
-      "mtimeMs": 1551997842409.26,
-      "ctimeMs": 1551997842409.26,
+      "atimeMs": 1552130677589.2725,
+      "mtimeMs": 1552130632075.582,
+      "ctimeMs": 1552130632075.582,
       "birthtimeMs": 1551916196024.8132,
-      "atime": "2019-03-07T22:57:15.234Z",
-      "mtime": "2019-03-07T22:30:42.409Z",
-      "ctime": "2019-03-07T22:30:42.409Z",
+      "atime": "2019-03-09T11:24:37.589Z",
+      "mtime": "2019-03-09T11:23:52.076Z",
+      "ctime": "2019-03-09T11:23:52.076Z",
       "birthtime": "2019-03-06T23:49:56.025Z"
     },
     "52a46abb-7521-5a34-aa63-e5e583cc8369": {
@@ -1206,7 +1217,7 @@
       "size": 31401,
       "prettySize": "31.4 kB",
       "modifiedTime": "2018-05-08T13:00:45.329Z",
-      "accessTime": "2019-03-07T21:15:59.337Z",
+      "accessTime": "2019-03-09T10:20:18.105Z",
       "changeTime": "2019-03-07T12:02:05.407Z",
       "birthTime": "2018-05-08T13:00:45.328Z",
       "root": "/",
@@ -1224,11 +1235,11 @@
       "blksize": 4096,
       "ino": 4303458120,
       "blocks": 64,
-      "atimeMs": 1551993359336.822,
+      "atimeMs": 1552126818105.2268,
       "mtimeMs": 1525784445328.7095,
       "ctimeMs": 1551960125407.458,
       "birthtimeMs": 1525784445328.4722,
-      "atime": "2019-03-07T21:15:59.337Z",
+      "atime": "2019-03-09T10:20:18.105Z",
       "mtime": "2018-05-08T13:00:45.329Z",
       "ctime": "2019-03-07T12:02:05.407Z",
       "birthtime": "2018-05-08T13:00:45.328Z"
@@ -1253,7 +1264,7 @@
       "size": 35736,
       "prettySize": "35.7 kB",
       "modifiedTime": "2018-05-08T13:00:45.329Z",
-      "accessTime": "2019-03-07T21:15:59.337Z",
+      "accessTime": "2019-03-09T10:20:18.105Z",
       "changeTime": "2019-03-07T12:02:05.407Z",
       "birthTime": "2018-05-08T13:00:45.329Z",
       "root": "/",
@@ -1271,61 +1282,14 @@
       "blksize": 4096,
       "ino": 4303458119,
       "blocks": 72,
-      "atimeMs": 1551993359336.9006,
+      "atimeMs": 1552126818105.233,
       "mtimeMs": 1525784445329.2222,
       "ctimeMs": 1551960125406.5664,
       "birthtimeMs": 1525784445328.8174,
-      "atime": "2019-03-07T21:15:59.337Z",
+      "atime": "2019-03-09T10:20:18.105Z",
       "mtime": "2018-05-08T13:00:45.329Z",
       "ctime": "2019-03-07T12:02:05.407Z",
       "birthtime": "2018-05-08T13:00:45.329Z"
-    },
-    "2f521e14-f088-55a9-b6c9-392404fb3281": {
-      "id": "2f521e14-f088-55a9-b6c9-392404fb3281",
-      "children": [
-        "8c9d75db-fffc-5c41-9756-61c923b7d434"
-      ],
-      "parent": null,
-      "internal": {
-        "contentDigest": "4a9773549091c227cd2eb82ccd9c5e3a",
-        "type": "File",
-        "mediaType": "image/png",
-        "description": "File \"src/images/gatsby-icon.png\"",
-        "owner": "gatsby-source-filesystem"
-      },
-      "sourceInstanceName": "images",
-      "absolutePath": "/Users/alex/projects/362/website/src/images/gatsby-icon.png",
-      "relativePath": "gatsby-icon.png",
-      "extension": "png",
-      "size": 21212,
-      "prettySize": "21.2 kB",
-      "modifiedTime": "2019-03-06T23:49:56.028Z",
-      "accessTime": "2019-03-07T20:40:33.472Z",
-      "changeTime": "2019-03-06T23:49:56.028Z",
-      "birthTime": "2019-03-06T23:49:56.028Z",
-      "root": "/",
-      "dir": "/Users/alex/projects/362/website/src/images",
-      "base": "gatsby-icon.png",
-      "ext": ".png",
-      "name": "gatsby-icon",
-      "relativeDirectory": "",
-      "dev": 16777220,
-      "mode": 33188,
-      "nlink": 1,
-      "uid": 501,
-      "gid": 20,
-      "rdev": 0,
-      "blksize": 4096,
-      "ino": 4303386947,
-      "blocks": 48,
-      "atimeMs": 1551991233471.72,
-      "mtimeMs": 1551916196028.4941,
-      "ctimeMs": 1551916196028.4941,
-      "birthtimeMs": 1551916196028.2095,
-      "atime": "2019-03-07T20:40:33.472Z",
-      "mtime": "2019-03-06T23:49:56.028Z",
-      "ctime": "2019-03-06T23:49:56.028Z",
-      "birthtime": "2019-03-06T23:49:56.028Z"
     },
     "5d56b86b-26b3-534c-8a93-8b1797b70ed3": {
       "id": "5d56b86b-26b3-534c-8a93-8b1797b70ed3",
@@ -1343,16 +1307,6 @@
       "parent": "e5928708-7110-5d62-9e0f-52b97cb9b99e",
       "internal": {
         "contentDigest": "e85bfcf0bed9e80d29995e043263a4c7",
-        "type": "ImageSharp",
-        "owner": "gatsby-transformer-sharp"
-      }
-    },
-    "8c9d75db-fffc-5c41-9756-61c923b7d434": {
-      "id": "8c9d75db-fffc-5c41-9756-61c923b7d434",
-      "children": [],
-      "parent": "2f521e14-f088-55a9-b6c9-392404fb3281",
-      "internal": {
-        "contentDigest": "4a9773549091c227cd2eb82ccd9c5e3a",
         "type": "ImageSharp",
         "owner": "gatsby-transformer-sharp"
       }
@@ -1377,7 +1331,7 @@
       "size": 4385,
       "prettySize": "4.38 kB",
       "modifiedTime": "2019-03-06T23:49:56.029Z",
-      "accessTime": "2019-03-07T14:55:34.343Z",
+      "accessTime": "2019-03-09T10:20:18.105Z",
       "changeTime": "2019-03-06T23:49:56.029Z",
       "birthTime": "2019-03-06T23:49:56.029Z",
       "root": "/",
@@ -1395,14 +1349,81 @@
       "blksize": 4096,
       "ino": 4303386948,
       "blocks": 16,
-      "atimeMs": 1551970534343.2332,
+      "atimeMs": 1552126818105.2603,
       "mtimeMs": 1551916196028.797,
       "ctimeMs": 1551916196028.797,
       "birthtimeMs": 1551916196028.6663,
-      "atime": "2019-03-07T14:55:34.343Z",
+      "atime": "2019-03-09T10:20:18.105Z",
       "mtime": "2019-03-06T23:49:56.029Z",
       "ctime": "2019-03-06T23:49:56.029Z",
       "birthtime": "2019-03-06T23:49:56.029Z"
+    },
+    "2f521e14-f088-55a9-b6c9-392404fb3281": {
+      "id": "2f521e14-f088-55a9-b6c9-392404fb3281",
+      "children": [
+        "8c9d75db-fffc-5c41-9756-61c923b7d434"
+      ],
+      "parent": null,
+      "internal": {
+        "contentDigest": "4a9773549091c227cd2eb82ccd9c5e3a",
+        "type": "File",
+        "mediaType": "image/png",
+        "description": "File \"src/images/gatsby-icon.png\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "images",
+      "absolutePath": "/Users/alex/projects/362/website/src/images/gatsby-icon.png",
+      "relativePath": "gatsby-icon.png",
+      "extension": "png",
+      "size": 21212,
+      "prettySize": "21.2 kB",
+      "modifiedTime": "2019-03-06T23:49:56.028Z",
+      "accessTime": "2019-03-09T10:20:18.105Z",
+      "changeTime": "2019-03-06T23:49:56.028Z",
+      "birthTime": "2019-03-06T23:49:56.028Z",
+      "root": "/",
+      "dir": "/Users/alex/projects/362/website/src/images",
+      "base": "gatsby-icon.png",
+      "ext": ".png",
+      "name": "gatsby-icon",
+      "relativeDirectory": "",
+      "dev": 16777220,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 4303386947,
+      "blocks": 48,
+      "atimeMs": 1552126818105.2554,
+      "mtimeMs": 1551916196028.4941,
+      "ctimeMs": 1551916196028.4941,
+      "birthtimeMs": 1551916196028.2095,
+      "atime": "2019-03-09T10:20:18.105Z",
+      "mtime": "2019-03-06T23:49:56.028Z",
+      "ctime": "2019-03-06T23:49:56.028Z",
+      "birthtime": "2019-03-06T23:49:56.028Z"
+    },
+    "f9d5e9cb-5148-56d8-9f71-559504dba3ca": {
+      "id": "f9d5e9cb-5148-56d8-9f71-559504dba3ca",
+      "children": [],
+      "parent": "9665e385-0de7-5869-ba03-df93395dcc16",
+      "internal": {
+        "contentDigest": "c2d2f4d92c31072bb430e0ed0a609294",
+        "type": "ImageSharp",
+        "owner": "gatsby-transformer-sharp"
+      }
+    },
+    "8c9d75db-fffc-5c41-9756-61c923b7d434": {
+      "id": "8c9d75db-fffc-5c41-9756-61c923b7d434",
+      "children": [],
+      "parent": "2f521e14-f088-55a9-b6c9-392404fb3281",
+      "internal": {
+        "contentDigest": "4a9773549091c227cd2eb82ccd9c5e3a",
+        "type": "ImageSharp",
+        "owner": "gatsby-transformer-sharp"
+      }
     },
     "f89b78c1-59f7-510d-a77f-cf81e079c217": {
       "id": "f89b78c1-59f7-510d-a77f-cf81e079c217",
@@ -1424,7 +1445,7 @@
       "size": 8904,
       "prettySize": "8.9 kB",
       "modifiedTime": "2019-03-06T23:49:56.029Z",
-      "accessTime": "2019-03-07T14:55:34.343Z",
+      "accessTime": "2019-03-09T10:20:18.105Z",
       "changeTime": "2019-03-06T23:49:56.029Z",
       "birthTime": "2019-03-06T23:49:56.029Z",
       "root": "/",
@@ -1442,11 +1463,11 @@
       "blksize": 4096,
       "ino": 4303386950,
       "blocks": 24,
-      "atimeMs": 1551970534343.276,
+      "atimeMs": 1552126818105.271,
       "mtimeMs": 1551916196029.3062,
       "ctimeMs": 1551916196029.3062,
       "birthtimeMs": 1551916196029.1672,
-      "atime": "2019-03-07T14:55:34.343Z",
+      "atime": "2019-03-09T10:20:18.105Z",
       "mtime": "2019-03-06T23:49:56.029Z",
       "ctime": "2019-03-06T23:49:56.029Z",
       "birthtime": "2019-03-06T23:49:56.029Z"
@@ -1471,7 +1492,7 @@
       "size": 10064,
       "prettySize": "10.1 kB",
       "modifiedTime": "2019-03-06T23:49:56.029Z",
-      "accessTime": "2019-03-07T14:55:34.343Z",
+      "accessTime": "2019-03-09T10:20:18.105Z",
       "changeTime": "2019-03-06T23:49:56.029Z",
       "birthTime": "2019-03-06T23:49:56.029Z",
       "root": "/",
@@ -1489,11 +1510,11 @@
       "blksize": 4096,
       "ino": 4303386949,
       "blocks": 24,
-      "atimeMs": 1551970534343.2551,
+      "atimeMs": 1552126818105.2664,
       "mtimeMs": 1551916196029.0747,
       "ctimeMs": 1551916196029.0747,
       "birthtimeMs": 1551916196028.958,
-      "atime": "2019-03-07T14:55:34.343Z",
+      "atime": "2019-03-09T10:20:18.105Z",
       "mtime": "2019-03-06T23:49:56.029Z",
       "ctime": "2019-03-06T23:49:56.029Z",
       "birthtime": "2019-03-06T23:49:56.029Z"
@@ -1518,7 +1539,7 @@
       "size": 9697,
       "prettySize": "9.7 kB",
       "modifiedTime": "2019-03-06T23:49:56.030Z",
-      "accessTime": "2019-03-06T23:50:51.739Z",
+      "accessTime": "2019-03-09T10:20:18.105Z",
       "changeTime": "2019-03-06T23:49:56.030Z",
       "birthTime": "2019-03-06T23:49:56.029Z",
       "root": "/",
@@ -1536,24 +1557,14 @@
       "blksize": 4096,
       "ino": 4303386951,
       "blocks": 24,
-      "atimeMs": 1551916251739.2512,
+      "atimeMs": 1552126818105.276,
       "mtimeMs": 1551916196029.5764,
       "ctimeMs": 1551916196029.5764,
       "birthtimeMs": 1551916196029.4197,
-      "atime": "2019-03-06T23:50:51.739Z",
+      "atime": "2019-03-09T10:20:18.105Z",
       "mtime": "2019-03-06T23:49:56.030Z",
       "ctime": "2019-03-06T23:49:56.030Z",
       "birthtime": "2019-03-06T23:49:56.029Z"
-    },
-    "f9d5e9cb-5148-56d8-9f71-559504dba3ca": {
-      "id": "f9d5e9cb-5148-56d8-9f71-559504dba3ca",
-      "children": [],
-      "parent": "9665e385-0de7-5869-ba03-df93395dcc16",
-      "internal": {
-        "contentDigest": "c2d2f4d92c31072bb430e0ed0a609294",
-        "type": "ImageSharp",
-        "owner": "gatsby-transformer-sharp"
-      }
     },
     "e0b50765-c44e-5c45-81e0-557b58b70857": {
       "id": "e0b50765-c44e-5c45-81e0-557b58b70857",
@@ -1585,63 +1596,6 @@
         "owner": "gatsby-transformer-sharp"
       }
     },
-    "0920010a-e78a-566b-8a2b-d2e876376a6c": {
-      "id": "0920010a-e78a-566b-8a2b-d2e876376a6c",
-      "children": [
-        "d047d62f-d79c-52f6-9d1b-c5a30a862c73"
-      ],
-      "parent": null,
-      "internal": {
-        "contentDigest": "2a48f13ad71010353d54a2f1da0b4095",
-        "type": "File",
-        "mediaType": "image/jpeg",
-        "description": "File \"src/images/IMAG0782a.jpg\"",
-        "owner": "gatsby-source-filesystem"
-      },
-      "sourceInstanceName": "images",
-      "absolutePath": "/Users/alex/projects/362/website/src/images/IMAG0782a.jpg",
-      "relativePath": "IMAG0782a.jpg",
-      "extension": "jpg",
-      "size": 977076,
-      "prettySize": "977 kB",
-      "modifiedTime": "2018-05-08T13:00:45.336Z",
-      "accessTime": "2019-03-07T12:02:07.657Z",
-      "changeTime": "2019-03-07T12:02:05.408Z",
-      "birthTime": "2018-05-08T13:00:45.329Z",
-      "root": "/",
-      "dir": "/Users/alex/projects/362/website/src/images",
-      "base": "IMAG0782a.jpg",
-      "ext": ".jpg",
-      "name": "IMAG0782a",
-      "relativeDirectory": "",
-      "dev": 16777220,
-      "mode": 33188,
-      "nlink": 1,
-      "uid": 501,
-      "gid": 20,
-      "rdev": 0,
-      "blksize": 4096,
-      "ino": 4303458121,
-      "blocks": 1912,
-      "atimeMs": 1551960127656.8474,
-      "mtimeMs": 1525784445336.24,
-      "ctimeMs": 1551960125408.3262,
-      "birthtimeMs": 1525784445329.3438,
-      "atime": "2019-03-07T12:02:07.657Z",
-      "mtime": "2018-05-08T13:00:45.336Z",
-      "ctime": "2019-03-07T12:02:05.408Z",
-      "birthtime": "2018-05-08T13:00:45.329Z"
-    },
-    "d047d62f-d79c-52f6-9d1b-c5a30a862c73": {
-      "id": "d047d62f-d79c-52f6-9d1b-c5a30a862c73",
-      "children": [],
-      "parent": "0920010a-e78a-566b-8a2b-d2e876376a6c",
-      "internal": {
-        "contentDigest": "2a48f13ad71010353d54a2f1da0b4095",
-        "type": "ImageSharp",
-        "owner": "gatsby-transformer-sharp"
-      }
-    },
     "37463b26-83e4-5a33-8959-6a2be36df7dc": {
       "id": "37463b26-83e4-5a33-8959-6a2be36df7dc",
       "children": [
@@ -1662,7 +1616,7 @@
       "size": 692828,
       "prettySize": "693 kB",
       "modifiedTime": "2019-03-06T23:49:56.028Z",
-      "accessTime": "2019-03-07T21:16:05.242Z",
+      "accessTime": "2019-03-09T10:20:18.105Z",
       "changeTime": "2019-03-07T22:30:36.928Z",
       "birthTime": "2019-03-06T23:49:56.025Z",
       "root": "/",
@@ -1680,11 +1634,11 @@
       "blksize": 4096,
       "ino": 4303386946,
       "blocks": 1360,
-      "atimeMs": 1551993365241.641,
+      "atimeMs": 1552126818105.2449,
       "mtimeMs": 1551916196027.8018,
       "ctimeMs": 1551997836927.8938,
       "birthtimeMs": 1551916196024.8647,
-      "atime": "2019-03-07T21:16:05.242Z",
+      "atime": "2019-03-09T10:20:18.105Z",
       "mtime": "2019-03-06T23:49:56.028Z",
       "ctime": "2019-03-07T22:30:36.928Z",
       "birthtime": "2019-03-06T23:49:56.025Z"
@@ -1695,6 +1649,63 @@
       "parent": "37463b26-83e4-5a33-8959-6a2be36df7dc",
       "internal": {
         "contentDigest": "17b3e1aaa6ab5e92fc164e15d9dafc74",
+        "type": "ImageSharp",
+        "owner": "gatsby-transformer-sharp"
+      }
+    },
+    "0920010a-e78a-566b-8a2b-d2e876376a6c": {
+      "id": "0920010a-e78a-566b-8a2b-d2e876376a6c",
+      "children": [
+        "d047d62f-d79c-52f6-9d1b-c5a30a862c73"
+      ],
+      "parent": null,
+      "internal": {
+        "contentDigest": "2a48f13ad71010353d54a2f1da0b4095",
+        "type": "File",
+        "mediaType": "image/jpeg",
+        "description": "File \"src/images/IMAG0782a.jpg\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "images",
+      "absolutePath": "/Users/alex/projects/362/website/src/images/IMAG0782a.jpg",
+      "relativePath": "IMAG0782a.jpg",
+      "extension": "jpg",
+      "size": 977076,
+      "prettySize": "977 kB",
+      "modifiedTime": "2018-05-08T13:00:45.336Z",
+      "accessTime": "2019-03-09T10:20:18.105Z",
+      "changeTime": "2019-03-07T12:02:05.408Z",
+      "birthTime": "2018-05-08T13:00:45.329Z",
+      "root": "/",
+      "dir": "/Users/alex/projects/362/website/src/images",
+      "base": "IMAG0782a.jpg",
+      "ext": ".jpg",
+      "name": "IMAG0782a",
+      "relativeDirectory": "",
+      "dev": 16777220,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 4303458121,
+      "blocks": 1912,
+      "atimeMs": 1552126818105.2383,
+      "mtimeMs": 1525784445336.24,
+      "ctimeMs": 1551960125408.3262,
+      "birthtimeMs": 1525784445329.3438,
+      "atime": "2019-03-09T10:20:18.105Z",
+      "mtime": "2018-05-08T13:00:45.336Z",
+      "ctime": "2019-03-07T12:02:05.408Z",
+      "birthtime": "2018-05-08T13:00:45.329Z"
+    },
+    "d047d62f-d79c-52f6-9d1b-c5a30a862c73": {
+      "id": "d047d62f-d79c-52f6-9d1b-c5a30a862c73",
+      "children": [],
+      "parent": "0920010a-e78a-566b-8a2b-d2e876376a6c",
+      "internal": {
+        "contentDigest": "2a48f13ad71010353d54a2f1da0b4095",
         "type": "ImageSharp",
         "owner": "gatsby-transformer-sharp"
       }
@@ -1719,7 +1730,7 @@
       "size": 1747761,
       "prettySize": "1.75 MB",
       "modifiedTime": "2018-05-08T20:52:14.249Z",
-      "accessTime": "2019-03-07T21:15:59.859Z",
+      "accessTime": "2019-03-09T10:20:18.105Z",
       "changeTime": "2019-03-07T22:30:42.409Z",
       "birthTime": "2018-05-08T20:52:10.697Z",
       "root": "/",
@@ -1737,11 +1748,11 @@
       "blksize": 4096,
       "ino": 4303458118,
       "blocks": 4224,
-      "atimeMs": 1551993359859.3743,
+      "atimeMs": 1552126818105.2493,
       "mtimeMs": 1525812734249.4155,
       "ctimeMs": 1551997842409.2598,
       "birthtimeMs": 1525812730697.249,
-      "atime": "2019-03-07T21:15:59.859Z",
+      "atime": "2019-03-09T10:20:18.105Z",
       "mtime": "2018-05-08T20:52:14.249Z",
       "ctime": "2019-03-07T22:30:42.409Z",
       "birthtime": "2018-05-08T20:52:10.697Z"
@@ -1754,26 +1765,6 @@
         "contentDigest": "0e1d996f53c10cba5c2ed83ff9e12da5",
         "type": "ImageSharp",
         "owner": "gatsby-transformer-sharp"
-      }
-    },
-    "SitePage /offline-plugin-app-shell-fallback/": {
-      "jsonName": "offline-plugin-app-shell-fallback-a30",
-      "internalComponentName": "ComponentOfflinePluginAppShellFallback",
-      "path": "/offline-plugin-app-shell-fallback/",
-      "component": "/Users/alex/projects/362/website/node_modules/gatsby-plugin-offline/app-shell.js",
-      "componentChunkName": "component---node-modules-gatsby-plugin-offline-app-shell-js",
-      "context": {},
-      "pluginCreator___NODE": "63e5f7ff-e5f1-58f7-8e2c-55872ac42281",
-      "pluginCreatorId": "63e5f7ff-e5f1-58f7-8e2c-55872ac42281",
-      "componentPath": "/Users/alex/projects/362/website/node_modules/gatsby-plugin-offline/app-shell.js",
-      "id": "SitePage /offline-plugin-app-shell-fallback/",
-      "parent": null,
-      "children": [],
-      "internal": {
-        "type": "SitePage",
-        "contentDigest": "92bd86b39191d30b043a47cdbf040360",
-        "description": "63e5f7ff-e5f1-58f7-8e2c-55872ac42281",
-        "owner": "internal-data-bridge"
       }
     },
     "SitePage /404/": {
@@ -1855,11 +1846,56 @@
         "description": "f795702c-a3b8-5a88-88ee-5d06019d44fa",
         "owner": "internal-data-bridge"
       }
+    },
+    "ffcb5b8f-0e60-5af5-b7a0-4e621970b137": {
+      "id": "ffcb5b8f-0e60-5af5-b7a0-4e621970b137",
+      "children": [],
+      "parent": null,
+      "internal": {
+        "contentDigest": "ea6eda5504ab7a275fc16d877eb9b6d7",
+        "type": "File",
+        "mediaType": "image/gif",
+        "description": "File \"src/images/ani.gif\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "images",
+      "absolutePath": "/Users/alex/projects/362/website/src/images/ani.gif",
+      "relativePath": "ani.gif",
+      "extension": "gif",
+      "size": 12507928,
+      "prettySize": "12.5 MB",
+      "modifiedTime": "2019-03-10T10:23:10.183Z",
+      "accessTime": "2019-03-10T10:23:10.218Z",
+      "changeTime": "2019-03-10T10:23:10.184Z",
+      "birthTime": "2019-03-09T11:23:02.454Z",
+      "root": "/",
+      "dir": "/Users/alex/projects/362/website/src/images",
+      "base": "ani.gif",
+      "ext": ".gif",
+      "name": "ani",
+      "relativeDirectory": "",
+      "dev": 16777220,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 4303625517,
+      "blocks": 24488,
+      "atimeMs": 1552213390217.5715,
+      "mtimeMs": 1552213390183,
+      "ctimeMs": 1552213390183.9026,
+      "birthtimeMs": 1552130582453.6265,
+      "atime": "2019-03-10T10:23:10.218Z",
+      "mtime": "2019-03-10T10:23:10.183Z",
+      "ctime": "2019-03-10T10:23:10.184Z",
+      "birthtime": "2019-03-09T11:23:02.454Z"
     }
   },
   "status": {
     "plugins": {},
-    "PLUGINS_HASH": "5a79d26590176656c9fec4814d4148db"
+    "PLUGINS_HASH": "8f65188884d42e3962c0d303a10b8ae6"
   },
   "componentDataDependencies": {
     "nodes": {
@@ -1871,9 +1907,7 @@
       ],
       "5d56b86b-26b3-534c-8a93-8b1797b70ed3": [
         "/"
-      ],
-      "e5928708-7110-5d62-9e0f-52b97cb9b99e": [],
-      "0592a2b0-c1f9-5692-b5cd-54b0e6bd9e0e": []
+      ]
     },
     "connections": {}
   },
@@ -1887,6 +1921,10 @@
     "offline-plugin-app-shell-fallback-a30": "520/path---offline-plugin-app-shell-fallback-a-30-c5a-NZuapzHg3X9TaN1iIixfv1W23E"
   },
   "components": {
+    "/Users/alex/projects/362/website/.cache/dev-404-page.js": {
+      "query": "",
+      "componentPath": "/Users/alex/projects/362/website/.cache/dev-404-page.js"
+    },
     "/Users/alex/projects/362/website/src/pages/404.js": {
       "query": "",
       "componentPath": "/Users/alex/projects/362/website/src/pages/404.js"
@@ -1898,10 +1936,6 @@
     "/Users/alex/projects/362/website/src/pages/page-2.js": {
       "query": "",
       "componentPath": "/Users/alex/projects/362/website/src/pages/page-2.js"
-    },
-    "/Users/alex/projects/362/website/node_modules/gatsby-plugin-offline/app-shell.js": {
-      "query": "",
-      "componentPath": "/Users/alex/projects/362/website/node_modules/gatsby-plugin-offline/app-shell.js"
     }
   },
   "staticQueryComponents": {
