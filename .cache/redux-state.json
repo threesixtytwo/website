@@ -1218,14 +1218,12 @@
       },
       "port": "8000",
       "host": "localhost",
-      "pathPrefix": "",
-      "polyfill": true,
       "buildTime": "2019-03-11T11:13:56.158Z",
       "id": "Site",
       "parent": null,
       "children": [],
       "internal": {
-        "contentDigest": "6229d6d50eeb6ea38b31e3761e0d011a",
+        "contentDigest": "755bd2d4100c826e76056c23b2285a9c",
         "type": "Site",
         "owner": "internal-data-bridge"
       }
