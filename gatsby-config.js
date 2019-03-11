@@ -1,7 +1,7 @@
 module.exports = {
   siteMetadata: {
     title: "Three Sixty Two",
-    author: "Three sixty two ltd",
+    author: "Threesixtytwo ltd",
     description: "A technology guide for your digital venture"
   },
   plugins: [
@@ -10,6 +10,13 @@ module.exports = {
       options: {
         path: `${__dirname}/src/images`,
         name: 'images',
+      },
+    },
+    {
+      resolve: `gatsby-plugin-google-analytics`,
+      options: {
+        // replace "UA-XXXXXXXXX-X" with your own Tracking ID
+        trackingId: "UA-136027564-1",
       },
     },
     'gatsby-transformer-sharp',
@@ -21,8 +28,8 @@ module.exports = {
         name: 'gatsby-starter-default',
         short_name: 'starter',
         start_url: '/',
-        background_color: '#616161',
-        theme_color: '#616161',
+        background_color: '#663399',
+        theme_color: '#663399',
         display: 'minimal-ui',
         icon: 'src/images/362portblack.png', // This path is relative to the root of the site.
       },
