@@ -17,12 +17,15 @@ class Main extends React.Component {
           <p>At a point three hundred and sixty two metres above sea level, where a footpath crosses a long railway line is a gate. 
             Beyond the gate is a track, for 9 miles the track runs along a lake before it curves 
              away from the water towards a range of remote mountains. In this wilderness, amongst the swirling, unpredictable, conditions
-             lies the beginning of adventure stories, a place where experience helps but no two days are the same, where a life of learning can only ever change the odds. </p>
-            <p>At three sixty two we operate in a wilderness between innovation and technology.</p>
-               <p>Arthur C Clarke's third law reads <quote>"Any sufficiently advanced technology is indistinguishable from magic."</quote> Its amazing how many people say that about even their smart phone. We'd love to demystify the magic out of technology and put it into your business.</p>
-            <p>We've learnt adaptability, mindset and continual learning coupled with the right people 
+             lies the beginning of adventure, a place where experience helps but no two days are the same, where a life of learning can only ever change the odds. </p>
+             <p>We've learnt adaptability, mindset and continual learning coupled with the right people 
               given the right environment creates outstanding measurable, repeatable results.  We've not always travelled the route we planed, because listening to customers teaches us new things everyday. We've evolved our goals to suit conditions and we've gotten pretty good at creating a culture that succeeds.</p>
-              <p>When facing your adventure in an evolving digital landscape, anyone can succeed but, when going through your gate, it really helps to have a guide.</p>
+            
+            <p>At three sixty two we operate in the wilderness between innovation and technology.</p>
+               <p>Arthur C Clarke's, one of the worlds most well know author and inventor is credited with stating 
+               <quote>"Any sufficiently advanced technology is indistinguishable from magic."</quote>We love demystifying 'magic', making it real, putting it to use in a lightweight way serving the neeeds of your customers.</p>
+            
+              <p>When facing your adventure in an evolving digital landscape, anyone can succeed but, it really helps to have a guide.</p>
               {close}
 </article>
         <article id="contact" className={`${this.props.article === 'contact' ? 'active' : ''} ${this.props.articleTimeout ? 'timeout' : ''}`} style={{display:'none'}}>
