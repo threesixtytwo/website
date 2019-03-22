@@ -23,7 +23,7 @@ class Main extends React.Component {
             
             <p>At three sixty two we operate in the wilderness between innovation and technology.</p>
                <p>Arthur C Clarke's, one of the worlds most well know author and inventor is credited with stating 
-               <quote>"Any sufficiently advanced technology is indistinguishable from magic."</quote>We love demystifying 'magic', making it real, putting it to use in a lightweight way serving the neeeds of your customers.</p>
+               <quote> "Any sufficiently advanced technology is indistinguishable from magic."</quote> We love demystifying 'magic', making it real, putting it to use in a lightweight way serving the neeeds of your customers.</p>
             
               <p>When facing your adventure in an evolving digital landscape, anyone can succeed but, it really helps to have a guide.</p>
               {close}
