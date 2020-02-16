@@ -26,6 +26,7 @@ class Main extends React.Component {
                <quote> "Any sufficiently advanced technology is indistinguishable from magic."</quote> We love demystifying 'magic', making it real, putting it to use in a lightweight way serving the neeeds of your customers.</p>
             
               <p>When facing your adventure in an evolving digital landscape, anyone can succeed but, it really helps to have a guide.</p>
+              <p> Give us a call +44 207 993 5192 or drop a note using the form below</p>
               {close}
 </article>
         <article id="contact" className={`${this.props.article === 'contact' ? 'active' : ''} ${this.props.articleTimeout ? 'timeout' : ''}`} style={{display:'none'}}>
