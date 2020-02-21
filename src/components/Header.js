@@ -16,11 +16,12 @@ const Header = (props) => (
 tinkers and tailors,<br />
 innovators and changemakers.</p>
             </div>
+            <p>Technology made simple</p>
         </div>
         <nav>
             <ul>
-                <li><a href="javascript:;" onClick={() => {props.onOpenArticle('about')}}>About</a></li>
-                <li><a href="javascript:;" onClick={() => {props.onOpenArticle('contact')}}>Contact</a></li>
+                <li><button onClick={() => {props.onOpenArticle('about')}}>About</button></li>
+                <li><button onClick={() => {props.onOpenArticle('contact')}}>Contact</button></li>
             </ul>
         </nav>
     </header>
